@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+*{margin:0;
+padding:0;
+}
+body{
+    background:url(../img/login.jpg) repeat-y center center / 100% auto;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width:100%;
+    height:100vh;
+}
+.loginBox{
+    width:400px;
+    height: 500px;
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.logo{
+    width:100%;
+    display: inline-flex;
+    justify-content: center;
+    margin: 100px 0 50px 0;
+}
+.logo img{
+    width:150px;
+    height:65px;
+}
+.inputTag{
+    display: block;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+.inputTag input{
+    display: block;
+    margin:0 auto;
+    margin-bottom:10px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom:1px solid #FCC019;
+    padding-bottom:5px;
+    font-family: "Noto Sans KR",serif;
+    font-weight: normal;
+}
+.inputTag input::placeholder{
+    color:#FCC019;
+}
+.inputTag input:focus{
+    outline:none;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #fCC019 0%, #ff9068  51%, #fCC019  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   border-radius:10px;
+   display: block;
+   margin:0 auto;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -ms-border-radius:10px;
+   -o-border-radius:10px;
+   cursor: pointer;
+}
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.snsButton{
+    width:50%;
+    display: block;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.snsButton li{
+    display: block;
+    text-align: center;
+}
+.snsButton a{
+    margin:0 8px 0 8px;
+}
+.snsButton a i{
+    font-size:15px;
+    color:white;
+    font-size: 32px;
+}
+.snsButton a:nth-child(1) i{
+    color:#FF0000;
+}
+.snsButton a:nth-child(2) i{
+    color:#4267B2;
+}
+.snsButton a:nth-child(3) i{
+    color:#E1306C;
+}
+.snsButton a:nth-child(4) i{
+    color:#1DA1F2;
+}
+.signUp{
+    width:50%;
+    display: block;
+    margin:0 auto;
+}
+.signUp li{
+    display: block;
+    text-align: center;
+}
+.signUp li a{
+    color:#fff;
+    font-weight: lighter;
+    font-family: "Noto Sans KR",serif;
+    font-size: 14px;
+    margin:0 5px 0 5px;
+    text-decoration: none;
+}
